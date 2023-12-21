@@ -1,0 +1,11 @@
+server {
+	listen 7001;
+	listen [::]:7001;
+	server_name _;
+	root /home/sridhar/devl/fabricjsdocs/docs;
+	index index.html;
+	fancyindex on;
+	location / {
+		try_files $uri $uri/ =404;
+	}
+}

@@ -1,0 +1,9 @@
+{
+    "scripts": {
+	"build": "npx jsdoc -d docs -t node_modules/ink-docstrap/template/ fabric.js-5.3.1/src/*.js fabric.js-5.3.1/src/shapes/*.js fabric.js-5.3.1/src/mixins/*.js fabric.js-5.3.1/src/filters/*.js fabric.js-5.3.1/src/brushes/*.js"
+    },
+    "dependencies": {
+	"ink-docstrap": "^1.3.2",
+	"jsdoc": "^3.6.7"
+    }
+}
